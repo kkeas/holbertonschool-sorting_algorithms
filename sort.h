@@ -2,8 +2,8 @@
 #define SORT_H
 
 /* Libraries */
-#include <stdlib.h>
 #include <stdio.h>
+#include <stddef.h>
 
 /* data structure */
 /**
