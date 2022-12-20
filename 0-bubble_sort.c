@@ -10,6 +10,10 @@ void bubble_sort(int *array, size_t size)
 {
 	size_t i, j, swap;
 
+	/*edge case for already sorted array*/
+	if (array == NULL || size < 2)
+		return;
+
 	/* loop to compare each array element*/
 	for (i = 0; i < size - 1; ++i)
 	{
